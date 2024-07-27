@@ -1,0 +1,49 @@
+.icons-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 3%; 
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-top: 3%;
+}
+
+.icon-item {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  background-color: #ffffff;
+  flex: 1 1 30%; /* Adjust the width of each icon item */
+  margin-bottom: 3%;
+}
+
+.icon {
+  font-size: 30px;
+  border-radius: 100%;
+  border: 1px solid #6a69692d;
+  color: #007bff;
+  padding: 30px; 
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content p {
+  margin-top: -3%;
+}
